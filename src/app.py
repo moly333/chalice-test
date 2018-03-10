@@ -8,7 +8,7 @@ def index():
     return {'hello': 'world'}
 
 
-@app.route('view/{name}')
+@app.route('/view/{name}')
 def view_prof(name):
     return {'name': name}
 
