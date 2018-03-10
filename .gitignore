@@ -109,3 +109,4 @@ venv.bak/
 ./src/.chalice/deployments/
 ./srcchalice/venv/
 env
+.idea
