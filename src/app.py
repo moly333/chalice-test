@@ -8,6 +8,11 @@ def index():
     return {'hello': 'world'}
 
 
+@app.route('view/{name}')
+def view_prof(name):
+    return {'name': name}
+
+
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.
 #
